@@ -1,0 +1,21 @@
+// Asset created by Aptugo
+
+.pages {
+  background-color: #666;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .phaser {
+      & canvas {
+      }
+    }
+  }
+}
