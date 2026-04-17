@@ -153,7 +153,7 @@ export default class Game extends Phaser.Scene {
       }
     }
 
-    if (this.updateDelay % 20 == 0) {
+    if (this.updateDelay % 16 == 0) {
       this.firstCell = this.firstCell = this.snakeBody[this.snakeBody.length - 1]
 
       this.lastCell = this.lastCell = this.snakeBody.shift()
